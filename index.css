@@ -1,0 +1,7 @@
+body {
+}
+.jumbotron {
+  background: url("images/web.jpg");
+  height: 400px;
+  width: 100%;
+}
