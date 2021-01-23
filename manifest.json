@@ -1,0 +1,20 @@
+{
+    "short_name": "Hallelujah",
+    "name": "Hallelujahtech",
+    "icons": [
+      {
+        "src": "/public/images/ceo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/public/images/ceo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index3.html",
+    "background_color": "#000000",
+    "display": "standalone",
+    "theme_color": "#ff0000"
+  }

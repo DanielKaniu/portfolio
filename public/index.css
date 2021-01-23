@@ -9,7 +9,7 @@ body {
   animation: gradient 15s ease infinite;
 }
 .jumbotron {
-  background: url("images/web.jpg");
+  background: url("images/web.webp");
   height: 400px;
   width: 100%;
 }
