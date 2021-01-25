@@ -22,7 +22,7 @@ function display_greetings(){
 }
 var i = 0;
 var txt = display_greetings();
-var speed = 300;
+var speed = 250;
 
 function typeWriter() {
   if (i < txt.length) {
