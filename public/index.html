@@ -16,11 +16,15 @@
     <!--
         Main CSS3 file -->
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
   </head>
-  <body>
+  <body onload="display_greetings()">
     <div>
       <div class="jumbotron jumbotron-fluid"></div>
       <br>
+      <p id="greetings">
+
+      </p>
       <div class="container">
           <div class="row justify-content-center">
               <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -33,7 +37,7 @@
                   role="tab"
                   aria-controls="pills-home"
                   aria-selected="true"
-                  >Our Work &#x1F4BC;</a
+                  >&#x26A1; &#x1F4BC;</a
                   >
               </li>
               <li class="nav-item" role="presentation">
@@ -45,7 +49,7 @@
                   role="tab"
                   aria-controls="pills-profile"
                   aria-selected="false"
-                  >Founder <span>&#129332;&#127996;</span></a
+                  ><span>&#129332;&#127996;</span></a
                   >
               </li>
               <li class="nav-item" role="presentation">
@@ -57,7 +61,7 @@
                   role="tab"
                   aria-controls="pills-contact"
                   aria-selected="false"
-                  >Contact Info <span>&#129305;&#127996;</span></a
+                  ><span>&#x1F30D;&#x1F4F2;&#129305;&#127996;</span></a
                   >
               </li>
               </ul>
