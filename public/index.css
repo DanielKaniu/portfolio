@@ -26,7 +26,7 @@ body {
 Banner */
 .jumbotron {
   background: url("images/web.webp");
-  height: 400px;
+  height: 450px;
   width: 100%;
 }
 /*
@@ -47,6 +47,28 @@ Programming languages used */
 Anchor tag links */
 .messengers {
   color: antiquewhite;
+}
+.icons {
+  padding-top: 10px;
+  font-size: 50px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 3px;
+  float: left;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-whatsapp {
+  color: red;
 }
 /*
 Background color */
