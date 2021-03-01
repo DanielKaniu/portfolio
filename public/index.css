@@ -48,6 +48,7 @@ Anchor tag links */
 .messengers {
   color: antiquewhite;
 }
+
 .icons {
   padding-top: 10px;
   font-size: 50px;
@@ -70,6 +71,7 @@ Anchor tag links */
 .fa-whatsapp {
   color: red;
 }
+
 /*
 Background color */
 @keyframes gradient {
