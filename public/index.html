@@ -33,274 +33,343 @@
   
   <body onload="typeWriter()">
 
-        <!--
-        Display image -->
-        <div class="jumbotron jumbotron-fluid"></div>
+    <!--
+    Display image -->
+    <div class="jumbotron jumbotron-fluid"></div>
 
-        <!--
-        Type set Greetings -->
-        <p id="greetings"></p>
+    <!--
+    Type set Greetings -->
+    <p id="greetings"></p>
 
+    <!--
+    1st container.
+    Main housing -->
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <!--
+            Holds the tab pills for the various panels. -->
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+              <!--
+              Pill tab for the Home panel. -->
+              <li class="nav-item" role="presentation">
+                  <a
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  > &#x1F4BC; Home </a
+                  >
+              </li>
+
+              <!--
+              Pill tab for the Team panel. -->
+              <li class="nav-item" role="presentation">
+                  <a
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                  ><span>&#129332;&#127996; Team</span></a
+                  >
+              </li>
+
+            </ul>
+
+        </div>
+        
         <!--
-        Main housing -->
-        <div class="container">
-            <div class="row justify-content-center">
+        This row houses the contents related to their specific tab pills. -->
+        <div class="row-fluid">
+            <div class="tab-content tab-dark" id="pills-tabContent">
+              <!--
+              Our work panel -->
+              <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+              >
+              <hr><br>
 
                 <!--
-                Holds the tab pills for the various panels. -->
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                Title -->
+                <p style="font-weight: bold;font-style: italic;">
+                  Some of the projects we have handled include, but not limited to, the following: 
+                </p>
 
-                  <!--
-                  Pill tab for the Home panel. -->
-                  <li class="nav-item" role="presentation">
-                      <a
-                      class="nav-link active"
-                      id="pills-home-tab"
-                      data-toggle="pill"
-                      href="#pills-home"
-                      role="tab"
-                      aria-controls="pills-home"
-                      aria-selected="true"
-                      > &#x1F4BC; Home </a
-                      >
-                  </li>
+                <br><hr><br>
 
-                  <!--
-                  Pill tab for the Team panel. -->
-                  <li class="nav-item" role="presentation">
-                      <a
-                      class="nav-link"
-                      id="pills-profile-tab"
-                      data-toggle="pill"
-                      href="#pills-profile"
-                      role="tab"
-                      aria-controls="pills-profile"
-                      aria-selected="false"
-                      ><span>&#129332;&#127996; Team</span></a
-                      >
-                  </li>
-
-                </ul>
-
-            </div>
-            
-            <!--
-            This row houses the contents related to their specific tab pills. -->
-            <div class="row-fluid">
-                <div class="tab-content tab-dark" id="pills-tabContent">
-                  <!--
-                  Our work panel -->
-                  <div
-                      class="tab-pane fade show active"
-                      id="pills-home"
-                      role="tabpanel"
-                      aria-labelledby="pills-home-tab"
-                  >
-                  <hr><br>
-
-                    <!--
-                    Title -->
-                    <p style="font-weight: bold;font-style: italic;">
-                      Some of the projects we have handled include, but not limited to, the following: 
-                    </p>
-
-                    <br><hr><br>
-
-                    <!--
-                    House the portfolio systems developed by the company. -->
-                    <div class="row justify-content-center">
-                          
-                      <!--
-                      Her Looks Brand. -->
-                      <div class="col-lg-3 col-md-6 card-block">
-                        <img
-                          class="card-img-top"
-                          src="images/120069748_331090788217917_1950767205245305801_n (1).webp"
-                          height="200px"
-                        />
-
-                        <hr>
-
-                        <div class="card-title">
-                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="E-commerce website">
-                                <a class="messengers" href="http://herlooks.co.ke/" target="_blank">Her Looks Brand</a>
-                            </button>
-                        </div>
-                      </div>
+                <!--
+                House the portfolio systems developed by the company. -->
+                <div class="row justify-content-center">
                       
-                      <!--
-                      Kubamba Krew. -->
-                      <div class="col-lg-3 col-md-6 card-block">
-                        <img
-                          class="card-img-top"
-                          src="images/kkreww (1).webp"
-                          height="200px"
-                        />
-                        <hr>
-                        <div class="card-title">
-                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Christian Organization">
-                                <a class="messengers" href="https://kkrewbs.co.ke/" target="_blank">Kubamba Krew</a>
-                            </button>
-                        </div>
-                      </div>
-              
-                      <!--
-                      Messengers of Redemption. -->
-                      <div class="col-lg-3 col-md-6 card-block">
-                        <img
-                          class="card-img-top"
-                          src="images/ordination.webp"
-                          height="200px"
-                        />
-                        <hr>
-                        <div class="card-title">
-                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Church Website">
-                                <a class="messengers" href="https://church-86b90.web.app/" target="_blank">Messengers of Redemption</a>
-                            </button>
-                        </div>
-                      </div>
+                  <!--
+                  Her Looks Brand. -->
+                  <div class="col-lg-3 col-md-6 card-block">
+                    <img
+                      class="card-img-top"
+                      src="images/120069748_331090788217917_1950767205245305801_n (1).webp"
+                      height="200px"
+                    />
 
-                      <!--
-                      Mitumba bales. -->
-                      <div class="col-lg-3 col-md-6 card-block">
-                        <img
-                          class="card-img-top"
-                          src="images/bale (1).webp"
-                          height="200px"
-                        />
-                        <hr>
-                        <div class="card-title">
-                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Online Billboard">
-                                <a class="messengers" href="https://mitumbake.web.app/" target="_blank">Mitumba bales</a>
-                            </button>
-                        </div>
-                      </div>
+                    <hr>
 
+                    <div class="card-title">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="E-commerce website">
+                            <a class="messengers" href="http://herlooks.co.ke/" target="_blank">Her Looks Brand</a>
+                        </button>
                     </div>
-
+                  </div>
+                  
+                  <!--
+                  Kubamba Krew. -->
+                  <div class="col-lg-3 col-md-6 card-block">
+                    <img
+                      class="card-img-top"
+                      src="images/kkreww (1).webp"
+                      height="200px"
+                    />
+                    <hr>
+                    <div class="card-title">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Christian Organization">
+                            <a class="messengers" href="https://kkrewbs.co.ke/" target="_blank">Kubamba Krew</a>
+                        </button>
+                    </div>
+                  </div>
+          
+                  <!--
+                  Messengers of Redemption. -->
+                  <div class="col-lg-3 col-md-6 card-block">
+                    <img
+                      class="card-img-top"
+                      src="images/ordination.webp"
+                      height="200px"
+                    />
+                    <hr>
+                    <div class="card-title">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Church Website">
+                            <a class="messengers" href="https://church-86b90.web.app/" target="_blank">Messengers of Redemption</a>
+                        </button>
+                    </div>
                   </div>
 
                   <!--
-                  Founder  panel -->
-                  <div
-                      class="tab-pane fade"
-                      id="pills-profile"
-                      role="tabpanel"
-                      aria-labelledby="pills-profile-tab"
-                  >
-                  <hr><br>
-
-                    <div class="media">
-                      
-                      <!--
-                      Icon showing team working together. -->
-                      <img
-                          src="images/team.png"
-                          class="ceo align-self-center mr-3"
-                          alt="..."
-                      />
-
-                      <!--
-                      Contains contents about the technologies the company uses. -->
-                      <div class="media-body">
-
-                          <h5 class="mt-0">Greetings,</h5>
-
-                          <p>We are <a href="https://www.facebook.com/Halleluyeahhh/">Hallelujah Technologies</a>, a team of passionate web-apps developers.</p>
-
-                          <br>
-
-                          <p class="mb-0">
-                            We specialize in User-Interfaces (UI) development using the following technologies:
-
-                            <br><br>
-
-                            <!--
-                            HTML 5 -->
-                            <p class="languages">
-                              <a class="btn btn-secondary" data-toggle="collapse" href="#HTML" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                  HTML 5
-                                </a>
-                            </p>
-                            <div class="collapse" id="HTML">
-                              <div class="card card-body">
-                                <a href="https://html.com/" target="_blank">Hyper-text Mark Up Language</a>
-                              </div>
-                            </div>
-
-                            <!--
-                            CSS 3 -->
-                            <p class="languages">
-                              <a class="btn btn-secondary" data-toggle="collapse" href="#CSS" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                  CSS 3
-                              </a>
-                            </p>
-                            <div class="collapse" id="CSS">
-                              <div class="card card-body">
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Cascading Style Sheets</a>
-                              </div>
-                            </div>
-
-                            <!--
-                            JAVASCRIPT -->
-                            <p class="languages">
-                              <a class="btn btn-secondary" data-toggle="collapse" href="#JS" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                  JAVASCRIPT
-                              </a>
-                            </p>
-                            <div class="collapse" id="JS">
-                              <div class="card card-body">
-                                <a href="https://www.javascript.com/" target="_blank">Javascript</a>
-                              </div>
-                            </div>
-
-                              <!--
-                              BOOTSTRAP V4.5 -->
-                              <p class="languages">
-                                <a class="btn btn-secondary" data-toggle="collapse" href="#BS" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    BOOTSTRAP V4.5
-                                </a>
-                              </p>
-                              <div class="collapse" id="BS">
-                                <div class="card card-body">
-                                  <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
-                                </div>
-                              </div>
-
-                              <!--
-                              CMS -->
-                              <p class="languages">
-                                <a class="btn btn-secondary" data-toggle="collapse" href="#CMS" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    CMS et al.
-                                </a>
-                              </p>
-                              <div class="collapse" id="CMS">
-                                <div class="card card-body">
-                                  <a href="https://en.wikipedia.org/wiki/Content_management_system" target="_blank">Content Management System</a>
-                                </div>
-                              </div>
-
-                          </p>
-
-                      </div>
+                  Mitumba bales. -->
+                  <div class="col-lg-3 col-md-6 card-block">
+                    <img
+                      class="card-img-top"
+                      src="images/bale (1).webp"
+                      height="200px"
+                    />
+                    <hr>
+                    <div class="card-title">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Online Billboard">
+                            <a class="messengers" href="https://mitumbake.web.app/" target="_blank">Mitumba bales</a>
+                        </button>
                     </div>
-
                   </div>
-                        
+
                 </div>
 
-                <br><br>
+              </div>
 
+              <!--
+              Founder  panel -->
+              <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+              >
+              <hr><br>
+
+                <div class="media">
+                  
+                  <!--
+                  Icon showing team working together. -->
+                  <img
+                      src="images/team.png"
+                      class="ceo align-self-center mr-3"
+                      alt="..."
+                  />
+
+                  <!--
+                  Contains contents about the technologies the company uses. -->
+                  <div class="media-body">
+
+                      <h5 class="mt-0">Greetings,</h5>
+
+                      <p>We are <a href="https://www.facebook.com/Halleluyeahhh/">Hallelujah Technologies</a>, a team of passionate web-apps developers.</p>
+
+                      <br>
+
+                      <p class="mb-0">
+                        We specialize in User-Interfaces (UI) development using the following technologies:
+
+                        <br><br>
+
+                        <!--
+                        HTML 5 -->
+                        <p class="languages">
+                          <a class="btn btn-secondary" data-toggle="collapse" href="#HTML" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              HTML 5
+                            </a>
+                        </p>
+                        <div class="collapse" id="HTML">
+                          <div class="card card-body">
+                            <a href="https://html.com/" target="_blank">Hyper-text Mark Up Language</a>
+                          </div>
+                        </div>
+
+                        <!--
+                        CSS 3 -->
+                        <p class="languages">
+                          <a class="btn btn-secondary" data-toggle="collapse" href="#CSS" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              CSS 3
+                          </a>
+                        </p>
+                        <div class="collapse" id="CSS">
+                          <div class="card card-body">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Cascading Style Sheets</a>
+                          </div>
+                        </div>
+
+                        <!--
+                        JAVASCRIPT -->
+                        <p class="languages">
+                          <a class="btn btn-secondary" data-toggle="collapse" href="#JS" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              JAVASCRIPT
+                          </a>
+                        </p>
+                        <div class="collapse" id="JS">
+                          <div class="card card-body">
+                            <a href="https://www.javascript.com/" target="_blank">Javascript</a>
+                          </div>
+                        </div>
+
+                          <!--
+                          BOOTSTRAP V4.5 -->
+                          <p class="languages">
+                            <a class="btn btn-secondary" data-toggle="collapse" href="#BS" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                BOOTSTRAP V4.5
+                            </a>
+                          </p>
+                          <div class="collapse" id="BS">
+                            <div class="card card-body">
+                              <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+                            </div>
+                          </div>
+
+                          <!--
+                          CMS -->
+                          <p class="languages">
+                            <a class="btn btn-secondary" data-toggle="collapse" href="#CMS" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                CMS et al.
+                            </a>
+                          </p>
+                          <div class="collapse" id="CMS">
+                            <div class="card card-body">
+                              <a href="https://en.wikipedia.org/wiki/Content_management_system" target="_blank">Content Management System</a>
+                            </div>
+                          </div>
+
+                      </p>
+
+                  </div>
+                </div>
+
+              </div>
+                    
             </div>
+
+            <br><br>
 
         </div>
 
+    </div>
+
+    <!--
+    2nd container.
+    (Footer) -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+
+        
+        <div class="row justify-content-center">
+
+          
+          <!--
+          Contains the icons, e.g., map. -->
+          <div class="col-lg-4">
+            <!--
+            Location icon.  -->
+            <p class="icons">
+              <i class="fa fa-map-marker"></i>&nbsp;&nbsp; Maternity,Kasarani,Kenya
+            </p>
+
+            <!--
+            Phone icon. -->
+            <p class="icons">
+              <i class="fa fa-phone"></i>&nbsp;&nbsp;  <a class="contact" href="tel:072-269-1915"> 0722691915 </a> 
+            </p>
+
+            <!--
+            E-mail icon. -->
+            <p class="icons">
+              <i class="fa fa-envelope"></i>&nbsp;&nbsp; 
+              <a class="contact" href="mailto:messengersofredemption@gmail.com">messengersofredemption@gmail.com</a> 
+            </p>
+          </div>
+
+          <!--
+          Houses the social media handles. -->
+          <div class=" col-lg-4">
+            <a href="https://web.facebook.com/Messengers-of-Redemption-Assembly-1891572764295091" target='_blank' class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/messengers_of_redemption/" target='_blank' class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UCLqTwRftnJaFUiVrPTuXyKg" target='_blank' class="fa fa-youtube"></a>
+          </div>
+
+          <br><br>
+
+          <!--
+          Contains the link to the designer and developer of this website. -->
+          <div class=" col-lg-4">
+            <p>
+              <hr><br>
+
+              &copy;2020 Messengers of Redemption Assembly
+
+              <br><br><hr>
+
+            </p>
+
+            <p style="color: rgb(104, 126, 118);">
+              Website Developed and Maintained by
+              <br>
+              <a href="https://hallelujahtech-9e6e2.web.app/" target="_blank" style="color: rgb(117, 117, 167);"><b><i>&copy;Hallelujah Technologies</i></b></a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--
+    Chat icons. -->
     <!-- GetButton.io widget -->
     <script type="text/javascript">
       (function () {
         var options = {
-          facebook: "2140508839541082", // Facebook page ID
-          whatsapp: "+254722837479", // WhatsApp number
+          facebook: "418801955528968", // Facebook page ID
+          whatsapp: "+254779453366", // WhatsApp number
           call_to_action: "Message us", // Call to action
           button_color: "#FF6550", // Color of button
           position: "right", // Position may be 'right' or 'left'
