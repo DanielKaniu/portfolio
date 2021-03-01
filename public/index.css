@@ -24,7 +24,7 @@ body {
 }
 /*
 Banner */
-.jumbotron {
+.jumbo {
   background: url("images/web.webp");
   height: 450px;
   width: 100%;
@@ -49,27 +49,31 @@ Anchor tag links */
   color: antiquewhite;
 }
 
-.icons {
-  padding-top: 10px;
+/*
+social media icons */
+.fa {
   font-size: 50px;
-  width: 40px;
-  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
-  margin-left: 3px;
-  float: left;
-  border-radius: 50%;
+  margin: 5px 2px;
+  text-align: center;
 }
+
 .fa-facebook {
   background: #3b5998;
   color: white;
 }
-.fa-twitter {
-  background: #55acee;
+.fa-instagram {
+  background: #37e220;
   color: white;
 }
-.fa-whatsapp {
-  color: red;
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
 
 /*
